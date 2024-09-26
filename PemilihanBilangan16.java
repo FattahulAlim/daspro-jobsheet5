@@ -11,9 +11,7 @@ public class PemilihanBilangan16 {
         System.out.print("Masukkan angka: ");
         int angka = sc.nextInt();
 
-        if (angka % 2 == 0)
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
-        else
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
+      String jenis = angka % 2 == 0 ? "Termasuk bilangan genap" : "Termasuk bilangan ganjil";
+      System.out.println(angka + " " + jenis);
     }
 }

@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * pemilihanHari16
- */
 public class pemilihanHari16 {
 
     public static void main(String[] args) {

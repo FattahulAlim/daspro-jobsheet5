@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * kafe16
- */
 public class kafe16 {
 
     public static void main(String[] args) {
@@ -51,7 +48,7 @@ public class kafe16 {
                 totalHarga += 0.4 * totalHarga;
                 break;
             default: 
-                System.out.println("Ukuran yang anda masukkan tidak ada");
+                System.out.println("Size yang dipilih tidak tersedia");
                 break;
         }
         double diskon = keanggotaan ? 0.1 : 0;
